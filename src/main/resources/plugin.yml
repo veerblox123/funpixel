@@ -1,0 +1,15 @@
+name: FarePixel
+version: 1.0.0
+main: com.farepixel.FarePixelPlugin
+api-version: '1.20'
+authors: [farepixel]
+description: FarePixel minigame plugin with Lobby, Duels, and BedWars.
+commands:
+  farepixel:
+    description: Move between FarePixel game modes.
+    usage: /farepixel <lobby|duels|bedwars>
+    aliases: [fp]
+permissions:
+  farepixel.use:
+    description: Allows using FarePixel command.
+    default: true
